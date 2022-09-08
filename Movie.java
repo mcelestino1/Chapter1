@@ -2,21 +2,25 @@ package Movie;
 
 /**
  * class: Movie
- * this Movie type class has four attributes
- * attribute/data part
- * title of a movie
- * released year
- * name of a director
- * name of the leading role actor or actress.
+ * written by: Muketoi Celestino
+ * date: September 8, 2022
+ * version: 1.2
  *
- * constructors
- * (1) no-arg constructors with default value you want to assign but you must
- * apply a constructor with all attributes as parameters.
- * (2)constructor takes all attributes
+ * Description: this Movie type class has four attributes
+ *              attribute/data part:
+ *                  title of a movie
+ *                  released year
+ *                  name of a director
+ *                  name of the leading role actor or actress.
  *
- * methods
- * getters, setters, toString
- * toString method should display information about the movie in a nice format.
+ *           constructors
+ *              (1) no-arg constructors with default value you want to assign but you must
+ *              apply a constructor with all attributes as parameters.
+ *              (2)constructor takes all attributes
+ *
+ *           methods
+ *              getters, setters, toString
+ *              toString method should display information about the movie in a nice format.
  *
  */
 public class Movie {
