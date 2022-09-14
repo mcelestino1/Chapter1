@@ -64,13 +64,12 @@ public class Textbook {
         this.year = year;
     }
     public void message(){
-        System.out.println("Thank you for choosing to read the textbook " + title);
+        System.out.println("Thank you for choosing to read the textbook '" + title +"'.");
     }
 
     @Override
     public String toString() {
-        return "Textbook Title: " + title + "\nName of Author: " + author + "Number of Pages: " + pages + "\nYear: " + year;
+        return "Textbook Title: " + title + "\nName of Author: " + author + "\nNumber of Pages: " + pages + "\nYear: " + year;
     }
 
 }
-
